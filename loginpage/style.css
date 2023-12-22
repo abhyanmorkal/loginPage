@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.box-area {
+  width: 650px;
+}
+
+.heading {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 48px;
+  font-style: italic;
+  color: white;
+  font-weight: 700;
+}
+.main-heading > p {
+  font-size: 15px;
+  font-family: poppins;
+  font-weight: 400;
+  color: white;
+}
+.header-text > p {
+  color: #b53939;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 5px ;
+}
+.num-info {
+  margin:7px;
+  color: #1e1e1e;
+  font-family: Poppins;
+  font-size: 12px;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  #logo{
+    display: flex;
+    justify-content: center;
+  }
+  .box-area {
+    margin: 0 20px;
+    overflow: hidden;
+  }
+  .left-box {
+    height: 130px;
+    overflow: hidden;
+    /* padding: 20px; */
+  }
+  .right-box {
+    padding: 30px;
+  }
+  .mob-res {
+    display: flex;
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    font-size: 24px;
+    margin: 7px;
+  }
+  .main-heading > p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .header-text{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .num-info{
+    text-align: center;
+
+  }
+  #login{
+    align-items: center;
+  }
+  .sign-up{
+    text-align: center;
+  }
+}
